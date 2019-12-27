@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vatsal Shah - IoT Engineer, Developer & Robotics</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vatsal Shah Website">
+    <meta name="author" content="Vatsal Shah">
+
+    <!-- <link rel="shortcut icon" href="favicon1.ico"> -->
+    <link rel="icon" type="image/png" href="assets/images/logo32x32.png" sizes="32x32">
+
+    <!-- Google Font -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome JS-->
+    <script type="text/javascript" src="assets/plugins/font-awesome/js/fontawesome-all.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+    <!-- Loader -->
+    <link rel="stylesheet" href="assets/css/loader.css">
+
+    <!-- Image Slider-->
+    <link rel="stylesheet" href="assets/css/slider.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="top-bar theme-bg-primary-darken">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark position-relative">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <ul class="social-list list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="text-white" href="https://www.facebook.com/vatsalnshah4u" target="_blank">
+                                <i class="fab fa-facebook fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-white" href="https://www.linkedin.com/in/vatsalnshah" target="_blank">
+                                <i class="fab fa-linkedin-in fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-white" href="skype:vatsalshah2210?add" target="_blank">
+                                <i class="fab fa-skype fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-white" href="https://github.com/vatsal2210" target="_blank">
+                                <i class="fab fa-github-alt fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--//social-list-->
+
+                    <div class="collapse navbar-collapse text-uppercase" id="navigation">
+                        <ul class="navbar-nav ml-lg-auto">
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="index-2.html">About
+                                </a>
+                            </li>
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                            <!--	 
+								<li class="nav-item mr-lg-3">
+									<a class="nav-link" href="talks.html">Talks</a>
+								</li>
+								<li class="nav-item mr-lg-3">
+									<a class="nav-link" href="blog.html">Blog</a>
+								</li> -->
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <span id="slide-line"></span>
+                    </div>
+                </nav>
+            </div>
+            <!--//container-->
+        </div>
+        <!--//top-bar-->
+
+        <!--//header-intro-->
+
+    </header>
+    <!--//header-->
+
+    <section class="section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="contact-intro col-lg-8 mx-lg-auto mb-5 text-center">
+                    <div class="container text-center" id="error">
+                        <svg height="100" width="100">
+                            <polygon points="50,25 17,80 82,80" stroke-linejoin="round"
+                                style="fill:none;stroke:#ff8a00;stroke-width:8" />
+                            <text x="42" y="74" fill="#ff8a00" font-family="sans-serif" font-weight="900"
+                                font-size="42px">!</text>
+                        </svg>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-icon text-warning">
+                                    <span class="uxicon uxicon-alert"></span>
+                                </div>
+                                <h1>File not found (404 error)</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-group col-12 center" style="text-align:center">
+        <button type="button" class="btn btn-primary">
+            <a href="index-2.html" style="color:black">Home</a>
+        </button>
+
+    </div>
+
+    <footer class="footer text-light text-center py-2" style=" position: fixed; width: 100%; bottom: 0px; left: 0px;">
+        <small class="copyright">&copy;2016 vatsalshah.in </small>
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+
+    <!-- Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/flickity/flickity.pkgd.min.js"></script>
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/flickity-custom.js"></script>
+
+    <!-- Google analytics -->
+    <script type="text/javascript" src="assets/js/googleanalytics.js"></script>
+
+    <!-- Loader -->
+    <script type="text/javascript" src="assets/js/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+
+</html>
