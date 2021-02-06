@@ -1,5 +1,4 @@
-function getCountDown(cdate) {
-  console.log(cdate);
+function getCountDown(cdate, withLabel) {
   // Set the unit values in milliseconds.
   var msecPerMinute = 1000 * 60;
   var msecPerHour = msecPerMinute * 60;
@@ -33,6 +32,7 @@ function getCountDown(cdate) {
   // Display the result.
   //				document.write(days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds.");
 
+  if (withLabel) return (days < 10 ? '0' + days : days) + ' Days : ' + (hours < 10 ? '0' + hours : hours) + ' Hrs : ' + (minutes < 10 ? '0' + minutes : minutes) + ' Min : ' + (seconds < 10 ? '0' + seconds : seconds) + ' Sec';
   return (days < 10 ? '0' + days : days) + ' : ' + (hours < 10 ? '0' + hours : hours) + ' : ' + (minutes < 10 ? '0' + minutes : minutes) + ' : ' + (seconds < 10 ? '0' + seconds : seconds);
 }
 
@@ -118,8 +118,8 @@ $(document).ready(function () {
     cd.setDate(c.day);
     cd.setHours(c.hh, c.min, c.sec, c.milsec);
     //hh min sec milsec
-    $('#timeleft').text(getCountDown(cd));
-    $('.timeleftText').text(getCountDown(cd));
+    $('#timeleft').text(getCountDown(cd, false));
+    $('.timeleftText').text(getCountDown(cd, true));
   });
 
   //////////////////////////////////////////////////////////////////////////////////////
